@@ -1,0 +1,31 @@
+.shop-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.shop-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.shop-header h1 {
+  color: #333;
+  font-size: 2rem;
+}
+
+.shop-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+@media (max-width: 768px) {
+  .shop-content {
+    grid-template-columns: 1fr;
+  }
+
+  .cart-section {
+    order: -1; /* Show cart first on mobile */
+  }
+}
