@@ -12,35 +12,35 @@ export class ProductService {
       name: 'Smartphone',
       description: 'Latest smartphone with high-end features',
       price: 699.99,
-      imageUrl: 'https://via.placeholder.com/150'
+      imageUrl: 'assets/images/smartphone.svg'
     },
     {
       id: 2,
       name: 'Laptop',
       description: 'Powerful laptop for work and gaming',
       price: 1299.99,
-      imageUrl: 'https://via.placeholder.com/150'
+      imageUrl: 'assets/images/laptop.svg'
     },
     {
       id: 3,
       name: 'Headphones',
       description: 'Noise-cancelling wireless headphones',
       price: 199.99,
-      imageUrl: 'https://via.placeholder.com/150'
+      imageUrl: 'assets/images/headphones.svg'
     },
     {
       id: 4,
       name: 'Smartwatch',
       description: 'Fitness tracking smartwatch with heart rate monitor',
       price: 249.99,
-      imageUrl: 'https://via.placeholder.com/150'
+      imageUrl: 'assets/images/smartwatch.svg'
     },
     {
       id: 5,
       name: 'Tablet',
       description: 'Lightweight tablet with high-resolution display',
       price: 399.99,
-      imageUrl: 'https://via.placeholder.com/150'
+      imageUrl: 'assets/images/tablet.svg'
     }
   ];
 
